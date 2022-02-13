@@ -48,7 +48,7 @@ stages:
     displayName: 'Deploy job'
     pool:
       vmImage: 'ubuntu-20.04'
-    environment: 'spkie.default'
+    environment: 'spike.default'
     variables:
     - group: Release
     steps:
